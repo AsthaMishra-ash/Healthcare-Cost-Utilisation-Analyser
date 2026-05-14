@@ -70,11 +70,11 @@ streamlit run dashboard.py
 
 | Page | Description |
 |---|---|
-| 📊 Overview | KPI cards, cost by category, discharge volumes |
-| 🗺️ Regional Analysis | State-level cost heatmap, covered charges vs payments |
-| 🔬 Diagnosis Insights | Top procedures by cost & volume, cost-to-charge ratio |
-| 🤖 Model Performance | R², RMSE, actual vs predicted, feature importance |
-| 🔮 Cost Predictor | Input provider profile → predicted Medicare payment |
+|  Overview | KPI cards, cost by category, discharge volumes |
+|  Regional Analysis | State-level cost heatmap, covered charges vs payments |
+|  Diagnosis Insights | Top procedures by cost & volume, cost-to-charge ratio |
+|  Model Performance | R², RMSE, actual vs predicted, feature importance |
+|  Cost Predictor | Input provider profile → predicted Medicare payment |
 
 ---
 
@@ -105,12 +105,6 @@ Random Forest significantly outperforms Linear Regression, capturing non-linear 
 - **ML Models** — Random Forest Regressor, Linear Regression
 - **Visualisation** — Matplotlib, Seaborn
 - **Dashboard** — Streamlit
-
----
-
-## 📝 Resume Bullet
-
-> *Analysed 3,000+ CMS Medicare inpatient records across 30 states to identify high-cost diagnosis groups and regional utilisation patterns; built a Random Forest regression model (R²: 0.998) to predict Medicare payments and deployed a 5-page Streamlit dashboard surfacing cost intelligence for simulated payer decision-making.*
 
 ---
 
